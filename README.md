@@ -1,2 +1,2 @@
-# Language-Family-Onology
+# Language-Family-Ontology
 Dil aileleri ontolojsi
