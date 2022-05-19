@@ -1,0 +1,509 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#"
+     xml:base="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Afarca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Afarca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Afrika_Dilleri"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Afrika_Dilleri -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Afrika_Dilleri">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Bantu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Afro-Asyatik -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Afro-Asyatik"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Akatca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Akatca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Semitik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Altay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Altay">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Ural-Altay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Amerikan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Amerikan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Digerleri"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Arapca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Arapca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Semitik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Asya_Dilleri -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Asya_Dilleri">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Hint-Avrupa-Dil-Ailesi"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Avrupa_Dilleri"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Avrupa_Dilleri -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Avrupa_Dilleri">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Hint-Avrupa-Dil-Ailesi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Avustronezya -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Avustronezya">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Digerleri"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Bantu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Afro-Asyatik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Berberi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Berberi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Afro-Asyatik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Burma_Dili -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Burma_Dili">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Cin-Tibet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Cin-Tibet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Cin-Tibet"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Cince_Mandarin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Cince_Mandarin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Cin-Tibet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Digerleri -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Digerleri"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Dravid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Dravid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Digerleri"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Eskimo-Aleut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Eskimo-Aleut">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Digerleri"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Estonca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Estonca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Ural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Fince -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Fince">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Ural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Habesce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Habesce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Semitik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Hint-Avrupa-Dil-Ailesi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Hint-Avrupa-Dil-Ailesi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Ibranice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Ibranice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Semitik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Japonca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Japonca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Altay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Kabiliya_Dili -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Kabiliya_Dili">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Berberi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Kantonca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Kantonca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Cin-Tibet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Kipti_Dili -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Kipti_Dili">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Afrika_Dilleri"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Kmerce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Kmerce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Cin-Tibet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Korece -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Korece">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Altay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Macarca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Macarca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Ural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Mancu-Tunguzca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Mancu-Tunguzca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Altay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Marice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Marice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Ural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Mogolca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Mogolca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Altay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Mordvince -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Mordvince">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Ural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Nijer-Kongo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Nijer-Kongo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Digerleri"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Oromo_Dili -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Oromo_Dili">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Afrika_Dilleri"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Semitik -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Semitik">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Afro-Asyatik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Suryanice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Suryanice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Semitik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Tamasek_Dili -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Tamasek_Dili">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Afrika_Dilleri"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Tayca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Tayca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Cin-Tibet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Tibetce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Tibetce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Cin-Tibet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Tigrinya_Dili -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Tigrinya_Dili">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Semitik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Tuareng_Dili -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Tuareng_Dili">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Berberi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Turkce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Turkce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Altay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Udmurtca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Udmurtca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Ural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Ural -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Ural">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Ural-Altay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Ural-Altay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Ural-Altay"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Vietnamca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Vietnamca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Cin-Tibet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Wu_Dili -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Wu_Dili">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Cin-Tibet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Zenet_Dili -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Zenet_Dili">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Berberi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#İzole_Diller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#İzole_Diller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Digerleri"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Afarca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Kipti_Dili"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Oromo_Dili"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Tamasek_Dili"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Akatca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Arapca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Habesce"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Ibranice"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Suryanice"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Tigrinya_Dili"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Amerikan"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Avustronezya"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Dravid"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Eskimo-Aleut"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Nijer-Kongo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#İzole_Diller"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Burma_Dili"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Cince_Mandarin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Kantonca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Kmerce"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Tayca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Tibetce"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Vietnamca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Wu_Dili"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Estonca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Fince"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Macarca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Marice"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Mordvince"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Udmurtca"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Japonca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Korece"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Mancu-Tunguzca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Mogolca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Turkce"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Kabiliya_Dili"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Tuareng_Dili"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/abra/ontologies/2022/4/untitled-ontology-11#Zenet_Dili"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
